@@ -10,73 +10,76 @@
     <!-- CSS font -->
     <link rel="stylesheet" href="css/fontbody.css">
 
-    <link rel="stylesheet" href="css/bgindex.css">
+    <link rel="stylesheet" href="css/background.css">
 </head>
 
 <body class="bg-gray-50 p-4">
-    <div class="max-w-2xl mx-auto bg-white shadow-xl rounded-2xl p-6">
-        <h1 class="text-2xl font-bold mb-4 text-center">ที่อยู่จัดส่ง</h1>
+    <div class="relative">
+        <div class="absolute inset-0 z-0 background rounded-2xl"></div>
+        <div class="relative z-10 max-w-4xl mx-auto bg-white/80 shadow-xl rounded-2xl p-6">
+            <h1 class="text-2xl font-bold mb-4 text-center">ที่อยู่จัดส่ง</h1>
 
-        <form action="end.html" method="get" class="space-y-4">
-            <div>
-                <label class="block font-semibold">ชื่อ - นามสกุล</label>
-                <input type="text" name="fullname" class="w-full border rounded p-2" required />
-            </div>
+            <form action="end.html" method="get" class="space-y-4">
+                <div>
+                    <label class="block font-semibold">ชื่อ - นามสกุล</label>
+                    <input type="text" name="fullname" class="w-full border rounded p-2" required />
+                </div>
 
-            <div>
-                <label class="block font-semibold">ที่อยู่</label>
-                <textarea class="w-full border rounded p-2" rows="3" required></textarea>
-            </div>
+                <div>
+                    <label class="block font-semibold">ที่อยู่</label>
+                    <textarea class="w-full border rounded p-2" rows="3" required></textarea>
+                </div>
 
-            <div>
-                <label class="block font-semibold">เบอร์โทร</label>
-                <input type="tel" class="w-full border rounded p-2" inputmode="numeric" pattern="[0-9]*" maxlength="10"
-                    placeholder="เช่น 0812345678" required />
-            </div>
+                <div>
+                    <label class="block font-semibold">เบอร์โทร</label>
+                    <input type="tel" class="w-full border rounded p-2" inputmode="numeric" pattern="[0-9]*"
+                        maxlength="10" placeholder="เช่น 0812345678" required />
+                </div>
 
-            <div>
-                <label class="block font-semibold">เลือกรายการสินค้า</label>
-                <textarea class="w-full border rounded p-2" rows="3"
-                    placeholder="ระบุชื่อสินค้า ขนาด สี จำนวน ฯลฯ"></textarea>
-            </div>
+                <div>
+                    <label class="block font-semibold">เลือกรายการสินค้า</label>
+                    <textarea class="w-full border rounded p-2" rows="3"
+                        placeholder="ระบุชื่อสินค้า ขนาด สี จำนวน ฯลฯ"></textarea>
+                </div>
 
-            <div>
-                <label class="block font-semibold">วันที่ซื้อ</label>
-                <input type="date" class="w-full border rounded p-2" required />
-            </div>
+                <div>
+                    <label class="block font-semibold">วันที่ซื้อ</label>
+                    <input type="date" class="w-full border rounded p-2" required />
+                </div>
 
-            <div>
-                <label class="block font-semibold">การรับสินค้า</label>
-                <select class="w-full border rounded p-2" required>
-                    <option value="">-- กรุณาเลือก --</option>
-                    <option>จัดส่ง</option>
-                    <option>รับเอง</option>
-                </select>
-            </div>
+                <div>
+                    <label class="block font-semibold">การรับสินค้า</label>
+                    <select class="w-full border rounded p-2" required>
+                        <option value="">-- กรุณาเลือก --</option>
+                        <option>จัดส่ง</option>
+                        <option>รับเอง</option>
+                    </select>
+                </div>
 
-            <div>
-                <label class="block font-semibold">ช่องทางชำระเงิน</label>
-                <select class="w-full border rounded p-2" required>
-                    <option value="">-- กรุณาเลือก --</option>
-                    <option>โอนผ่านบัญชีธนาคาร</option>
-                    <option>พร้อมเพย์</option>
-                    <option>QR Code</option>
-                    <option>เงินสด</option>
-                </select>
-            </div>
+                <div>
+                    <label class="block font-semibold">ช่องทางชำระเงิน</label>
+                    <select class="w-full border rounded p-2" required>
+                        <option value="">-- กรุณาเลือก --</option>
+                        <option>โอนผ่านบัญชีธนาคาร</option>
+                        <option>พร้อมเพย์</option>
+                        <option>QR Code</option>
+                        <option>เงินสด</option>
+                    </select>
+                </div>
 
-            <div>
-                <label class="block font-semibold">แนบรูปสลิป</label>
-                <input type="file" class="w-full" accept="image/*" />
-            </div>
+                <div>
+                    <label class="block font-semibold">แนบรูปสลิป</label>
+                    <input type="file" class="w-full" accept="image/*" />
+                </div>
 
 
-            <div class="flex justify-end">
-                <button type="submit" class="bg-green-600 text-white px-4 py-1 rounded">
-                    บันทึกข้อมูล
-                </button>
-            </div>
-        </form>
+                <div class="flex justify-end">
+                    <button type="submit" class="bg-green-600 text-white px-4 py-1 rounded">
+                        บันทึกข้อมูล
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
