@@ -1,0 +1,7 @@
+.background {
+      background-image: url('https://sdmntprcentralus.oaiusercontent.com/files/00000000-bee4-61f5-be1e-d08ef413ad9e/raw?se=2025-07-25T07%3A04%3A22Z&sp=r&sv=2024-08-04&sr=b&scid=11d1958f-e328-56ab-b895-aec71e7a89cb&skoid=f71d6506-3cac-498e-b62a-67f9228033a9&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-24T21%3A41%3A56Z&ske=2025-07-25T21%3A41%3A56Z&sks=b&skv=2024-08-04&sig=hbGvotwQE16j0haJzeI6JoGho270HrQ2nkaA0sB8Ljo%3D');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 80%;
+    }

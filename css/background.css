@@ -1,0 +1,7 @@
+.background {
+      background-image: url('https://www.cs.mju.ac.th/assets/bg-home.1831a7d9.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      opacity: 80%;
+    }

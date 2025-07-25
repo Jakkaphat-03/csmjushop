@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>เลือกรายการสินค้า</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- CSS font -->
+  <link rel="stylesheet" href="css/fontbody.css">
+
+  <!-- Background -->
+  <link rel="stylesheet" href="css/bgindex.css">
+</head>
+
+<body class="bg-blue-50 p-4">
+  <div class="relative">
+    <div class="absolute inset-0 z-0 background rounded-2xl"></div>
+    <div class="relative z-10 max-w-4xl mx-auto bg-white/80 shadow-xl rounded-2xl p-6">
+      <h1 class="text-2xl font-bold text-center mb-6">เลือกรายการสินค้า</h1>
+      <!-- เสื้อ -->
+      <div class="border-t pt-4">
+        <h2 class="text-xl font-bold mb-2">รายละเอียดสินค้า: เสื้อ </h2>
+        <strong class="text-xl text-green-700">ราคา 350฿</strong>
+        <img
+          src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/492726626_1301755551474864_4650819068034533318_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gHsDV3Nf2lQQ7kNvwHco6te&_nc_oc=AdlfPQnxMm5zWpo-WbI58TheqcutWDA6uV1WOj6ZX33R2WPCFksFHFOCSO0zEwCQQZc&_nc_zt=23&_nc_ht=scontent.fbkk10-1.fna&_nc_gid=0xsQ2rZ4i5V-mVmZWid-zw&oh=00_AfTk6npJ65i-D6TQT7BO6Zhpmn9tjyuPfZWR9cP8poAFvw&oe=6888DF36"
+          alt="เสื้อ" class="h-80 mb-2 rounded-lg mx-auto">
+
+        <div class="flex gap-4">
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-black hover:ring-2 ring-black"
+            title="สีดำ"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-white hover:ring-2 ring-gray-400"
+            title="สีขาว"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-blue-500 hover:ring-2 ring-blue-500"
+            title="สีฟ้า"></button>
+        </div> <br>
+
+        <label class="block font-semibold">ขนาด</label>
+        <select class="w-full border rounded p-2 mb-2">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>3XL</option>
+        </select>
+
+
+        <label class="block font-semibold">จำนวน</label>
+        <input type="number" min="0" max="10" class="w-full border rounded p-2 mb-4" />
+      </div>
+
+      <!-- กระเป๋า -->
+      <div class="border-t pt-4">
+        <h2 class="text-xl font-bold mb-2">รายละเอียดสินค้า: กระเป๋า</h2>
+        <strong class="text-xl text-green-700">ราคา 100฿</strong>
+        <img
+          src="https://scontent.fbkk10-1.fna.fbcdn.net/v/t39.30808-6/493005268_1301755201474899_6244571522193418191_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=127cfc&_nc_ohc=XRUdZc4r3Q4Q7kNvwEA0cXi&_nc_oc=AdkmErDqE_p7izvMa_8aD8pY9eZwvztD_8LFGyqWI6yRTQPf09FlWDsX00FmiVgLYSI&_nc_zt=23&_nc_ht=scontent.fbkk10-1.fna&_nc_gid=iD_6bQPrATUhZig_zqBC3g&oh=00_AfSZy_wXVzpZ73IFwe7ldBot-BlJCpGlUx3VS9jXRlj48w&oe=6888F469"
+          alt="กระเป๋า" class="h-90 w-80 mb-2 rounded-lg mx-auto">
+
+        <div class="flex gap-4">
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-black hover:ring-2 ring-black"
+            title="สีดำ"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-white hover:ring-2 ring-gray-400"
+            title="สีขาว"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-blue-500 hover:ring-2 ring-blue-500"
+            title="สีฟ้า"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-green-700 hover:ring-2 ring-blue-500"
+            title="เขียว"></button>
+        </div> <br>
+
+        <label class="block font-semibold">ขนาด</label>
+        <select class="w-full border rounded p-2 mb-2">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select>
+
+        <label class="block font-semibold">จำนวน</label>
+        <input type="number" min="0" max="10" class="w-full border rounded p-2 mb-4" />
+      </div>
+
+      <!-- แก้ว -->
+      <div class="border-t pt-4">
+        <h2 class="text-xl font-bold mb-2">รายละเอียดสินค้า: แก้วน้ำ</h2>
+        <strong class="text-xl text-green-700">ราคา 150฿</strong>
+        <img src="https://cdn.pixabay.com/photo/2020/03/18/08/21/bottle-4943214_1280.jpg" alt="แก้ว"
+          class="h-90 w-80 mb-2 rounded-lg mx-auto">
+
+        <div class="flex gap-4">
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-black hover:ring-2 ring-black"
+            title="สีดำ"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-white hover:ring-2 ring-gray-400"
+            title="สีขาว"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-blue-500 hover:ring-2 ring-blue-500"
+            title="สีฟ้า"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-green-700 hover:ring-2 ring-blue-500"
+            title="เขียว"></button>
+        </div> <br>
+
+        <label class="block font-semibold">ขนาด</label>
+        <select class="w-full border rounded p-2 mb-2">
+          <option>เล็ก</option>
+          <option>กลาง</option>
+          <option>ใหญ่</option>
+        </select>
+
+        <label class="block font-semibold">จำนวน</label>
+        <input type="number" min="0" max="10" class="w-full border rounded p-2 mb-4" />
+      </div>
+
+      <!-- หมวก -->
+      <div class="border-t pt-4">
+        <h2 class="text-xl font-bold mb-2">รายละเอียดสินค้า: หมวก</h2>
+        <strong class="text-xl text-green-700">ราคา 250฿</strong>
+        <img
+          src="https://tsmactive.com/image/cache/catalog/65t/Omnium%20Portable%20Trainer/Headsweats-Race-Hats-Black-550x550.jpg"
+          alt="หมวก" class="h-90 w-80 mb-2 rounded-lg mx-auto">
+
+        <div class="flex gap-4">
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-black hover:ring-2 ring-black"
+            title="สีดำ"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-white hover:ring-2 ring-gray-400"
+            title="สีขาว"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-blue-500 hover:ring-2 ring-blue-500"
+            title="สีฟ้า"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-green-700 hover:ring-2 ring-blue-500"
+            title="เขียว"></button>
+        </div> <br>
+
+
+        <label class="block font-semibold">ขนาด</label>
+        <select class="w-full border rounded p-2 mb-2">
+          <option>S</option>
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>3XL</option>
+        </select>
+
+        <label class="block font-semibold">จำนวน</label>
+        <input type="number" min="0" max="10" class="w-full border rounded p-2 mb-4" />
+      </div>
+
+      <!-- ร่ม -->
+      <div class="border-t pt-4">
+        <h2 class="text-xl font-bold mb-2">รายละเอียดสินค้า: ร่ม</h2>
+        <strong class="text-xl text-green-700">ราคา 175฿</strong>
+        <img src="https://zeanrom.com/wp-content/uploads/2017/10/blue-umbrella-30inchs-003.jpg" alt="ร่ม"
+          class="h-90 w-80 mb-2 rounded-lg mx-auto">
+
+        <div class="flex gap-4">
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-black hover:ring-2 ring-black"
+            title="สีดำ"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-white hover:ring-2 ring-gray-400"
+            title="สีขาว"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-blue-500 hover:ring-2 ring-blue-500"
+            title="สีฟ้า"></button>
+          <button class="w-8 h-8 rounded border-2 border-gray-400 bg-green-700 hover:ring-2 ring-blue-500"
+            title="เขียว"></button>
+        </div> <br>
+
+
+        <label class="block font-semibold">ขนาด</label>
+        <select class="w-full border rounded p-2 mb-2">
+          <option>M</option>
+          <option>L</option>
+          <option>XL</option>
+        </select>
+
+        <label class="block font-semibold">จำนวน</label>
+        <input type="number" min="0" max="10" class="w-full border rounded p-2 mb-4" />
+      </div>
+
+      <!-- เข็มกลัด -->
+      <div class="border-t pt-4">
+        <h2 class="text-xl font-bold mb-2">รายละเอียดสินค้า: เข็มกลัด</h2>
+        <strong class="text-xl text-green-700">ราคา 90฿</strong>
+        <img src="https://inwfile.com/s-gi/j7pnic.jpg" alt="เข็มกลัด" class="h-90 w-80 mb-2 rounded-lg mx-auto">
+
+        <label class="block font-semibold">จำนวน</label>
+        <input type="number" min="0" max="10" class="w-full border rounded p-2 mb-4" />
+      </div>
+
+      <!-- สมุด -->
+      <div class="border-t pt-4">
+        <h2 class="text-xl font-bold mb-2">รายละเอียดสินค้า: สมุด</h2>
+        <strong class="text-xl text-green-700">ราคา 30฿</strong>
+        <img
+          src="https://www.ofm.co.th/blog/wp-content/uploads/2022/03/%E0%B8%AA%E0%B8%A1%E0%B8%B8%E0%B8%94%E0%B9%80%E0%B8%A5%E0%B8%84%E0%B9%80%E0%B8%8A%E0%B8%AD%E0%B8%A3%E0%B9%8C-2.jpg"
+          alt="สมุด" class="h-90 w-80 mb-2 rounded-lg mx-auto">
+
+
+        <label class="block font-semibold">จำนวน</label>
+        <input type="number" min="0" max="10" class="w-full border rounded p-2 mb-4" />
+      </div>
+
+      <!-- ปากกา -->
+      <div class="border-t pt-4">
+        <h2 class="text-xl font-bold mb-2">รายละเอียดสินค้า: ปากกา</h2>
+        <strong class="text-xl text-green-700">ราคา 20฿</strong>
+        <img src="https://ogga-idea.com/wp-content/uploads/W-BND181.jpg" alt="ปากกา"
+          class="h-90 w-80 mb-2 rounded-lg mx-auto">
+
+
+        <label class="block font-semibold">จำนวน</label>
+        <input type="number" min="0" max="10" class="w-full border rounded p-2 mb-4" />
+      </div>
+
+      <div class="flex justify-between">
+        <!-- ปุ่ม Admin -->
+        <a href="loginadmin.html" target="_blank">
+          <button type="button" class="bg-blue-600 text-white px-4 py-1 rounded">
+            เข้าสู่ระบบ Admin
+          </button>
+        </a>
+
+        <!-- ปุ่มส่งข้อมูล -->
+        <a href="nextpage.html" target="_blank">
+          <button type="button" class="bg-green-600 text-white px-4 py-1 rounded">ถัดไป</button>
+        </a>
+      </div>
+    </div>
+</body>
+
+</html>
